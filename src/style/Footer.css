@@ -166,4 +166,7 @@
         align-items: center;
     }
 
+    .social-media-wrap {
+        flex-direction: column;
+    }
 }
