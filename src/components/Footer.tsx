@@ -1,8 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import '../style/Footer.css';
 
 function Footer(props) {
     return (
-        <div></div>
+
+        <div className={'footer-container'}>
+            
+        </div>
     );
 }
 
