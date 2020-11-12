@@ -65,6 +65,62 @@ function Footer(props) {
                 </div>
             </div>
             {/*End Footer links*/}
+
+            {/*Social media info*/}
+            <section className={'social-media'}>
+                <div className={'social-media-wrap'}>
+                    <div className={'footer-logo'}>
+                        <Link to='/' className={'social-logo'}>
+                            Phood Tran
+                            <i className={'fa fa-adjust'}></i>
+                        </Link>
+                    </div>
+                    <small className={'website-rights'}>Phood Tran © 2020</small>
+                    <div className={'social-icons'}>
+                        <Link
+                            className={'social-icon-link'}
+                            to='/'
+                            target='_blank'
+                            aria-label='Facebook'
+                        >
+                            <i className={'fab fa-facebook-f'}/>
+                        </Link>
+                        <Link
+                            className={'social-icon-link'}
+                            to='/'
+                            target='_blank'
+                            aria-label='Instagram'
+                        >
+                            <i className={'fab fa-instagram'}/>
+                        </Link>
+                        <Link
+                            className={'social-icon-link'}
+                            to='/'
+                            target='_blank'
+                            aria-label='Youtube'
+                        >
+                            <i className={'fab fa-youtube'}/>
+                        </Link>
+                        <Link
+                            className={'social-icon-link'}
+                            to='/'
+                            target='_blank'
+                            aria-label='Twitter'
+                        >
+                            <i className={'fab fa-twitter'}/>
+                        </Link>
+                        <Link
+                            className={'social-icon-link'}
+                            to='/'
+                            target='_blank'
+                            aria-label='LinkedIn'
+                        >
+                            <i className={'fab fa-linkedin'}/>
+                        </Link>
+                    </div>
+                </div>
+            </section>
+            {/*End Social media info*/}
         </div>
     );
 }
