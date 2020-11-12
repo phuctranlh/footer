@@ -147,3 +147,18 @@
 .social-icon-link + .social-icon-link {
     margin-left: 1rem;
 }
+
+/*Responsive*/
+@media screen and (max-width: 960px) {
+
+    .footer-input {
+        width: 100%;
+        margin-bottom: 0.5rem;;
+    }
+
+    .btn-outline {
+        width: 100%;
+        display: block;
+    }
+
+}
