@@ -161,4 +161,9 @@
         display: block;
     }
 
+    .footer-link-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
